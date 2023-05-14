@@ -4,21 +4,32 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-center items-center mt-1">
         <div className="my-3">
           2023 with ❤️ by{" "}
-          <a href="https://bayubit.dev/" className="font-bold text-pink-600">
+          <a
+            href="https://bayubit.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-pink-600"
+          >
             Satrio Bayu
           </a>
         </div>
         <span className="hidden md:inline md:mx-2">|</span>
         <div>
-          powered by{" "}
-          <a href="https://nextjs.org" className="font-bold text-pink-600">
-            Next.js
-          </a>{" "}
-          ⚡
+          e-mail:{" "}
+          <a
+            href="mailto:satrio.bayu.a@gmail.com"
+            className="font-bold text-pink-600"
+          >
+            satrio.bayu.a@gmail.com
+          </a>
         </div>
       </div>
       <div className="my-4 text-center">
-        <a href="">
+        <a
+          href="https://github.com/halosatrio/test-golds"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="px-8 py-1.5 text-sm font-bold rounded text-white bg-stone-800">
             go to repository
           </button>

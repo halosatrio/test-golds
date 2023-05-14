@@ -73,8 +73,8 @@ const MainContent: React.FC = () => {
 
   return (
     <main className="max-w-6xl m-auto grid grid-cols-3 gap-4 p-4 overflow-auto">
-      {characters.map((character) => (
-        <div key={character.id} className="my-4">
+      {characters.map((character, index) => (
+        <div key={index} className="my-4">
           <img className="mx-auto" src={character.image} alt={character.name} />
           <h2 className="text-center">{character.name}</h2>
           <p className="text-center">{character.species}</p>
